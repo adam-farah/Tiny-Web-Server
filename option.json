@@ -1,0 +1,15 @@
+{
+    "host": "localhost",
+    "port": 3000,
+    "index": "hello.html",
+    "docroot": ".",
+    "logged-headers": ["user-agent", "referer"],
+    "logfile": "tinyweb.log",
+    "errorpage": "error404.html",
+    "aliases": {
+		"/index.html": "/hello.html",
+		"/": "/hello.html",
+		"/really/cool.html": "/notcool.html"
+    }
+}
+ 
